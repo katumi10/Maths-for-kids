@@ -1,0 +1,131 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:cursive ,sans-serif;
+    background-color: #e6e6;
+}
+.container{
+    padding: 20px;
+    overflow: hidden;
+    background-color: #fe4a49;
+}
+
+.container h1{
+    float: left;
+    margin-left: 10%;
+    color: white;
+
+}
+
+
+.container ul{
+    list-style-type: none;
+    font-size: 20px;
+    margin-left: 60%;
+}
+
+.container li{
+    margin-top: 10px;
+    float: left;
+    padding: 0 20px 0 20px;
+}
+
+.container a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.current a::after{
+    content:'_';
+    background-color: rgb(253, 246, 246);
+    font-size: 4px;
+    display: block;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.equation{
+    font-size: 60px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 15%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.equation h1{
+    display: inline;
+    padding: 20px;
+}
+
+.equation h1#num1{
+    color: red;
+}
+.equation h1#num2{
+    color: #fed756;
+}
+
+.equation h1#equal{
+    color: blue;
+}
+
+.equation h1#plus{
+    color: green;
+}
+.answer-options{
+    font-size: 60px;
+    margin-right: 10px;}
+
+    .answer-options{
+    margin-top: 10px;
+  border-radius: 5px;
+    text-align: center;
+    color: whitesmoke;
+    width: 95%;
+}
+
+
+#option1{
+    background-color: #fe4a49;
+    transition: 1s;
+}
+
+
+/* #option1:hover{
+    color: #fe4a49;
+    background-color: white;
+} */
+
+
+#option2{
+    background-color: #2ab7ca;
+    transition: 1s;
+}
+
+
+/* #option2:hover{
+    color: #2ab7ca;
+    background-color: white;
+} */
+
+
+#option3{
+    background-color: #fed756;
+    transition: 1s;
+}
+
+/* #option3:hover{
+    color: #fed756;
+    background-color: white;
+} */
